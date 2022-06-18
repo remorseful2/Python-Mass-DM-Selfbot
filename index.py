@@ -19,7 +19,7 @@ if os.path.exists("data.json"):
 if data is not None and "token" in data.keys():
     token = data["token"]
 else:
-    token = input('ur token: ')
+    token = input('ur token:OTg3ODIxMzc5ODE2NjczMzgy.G_CvgB.EFEMA8s0nwCEA1kX4p4aWIc3bxUeu6GYj_PWGA ')
 bot = discum.Client(token=token, log=False)
 memberz = []
 guildz = load_from_data_else_ask("guildid", "Please input guild ID: ")
